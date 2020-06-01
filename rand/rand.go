@@ -1,4 +1,4 @@
-package tcgen
+package rand
 
 import "math/rand"
 
