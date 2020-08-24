@@ -21,3 +21,7 @@ func StringWithCharset(length int, charset string) string {
 func String(length int) string {
 	return StringWithCharset(length, charset)
 }
+
+func Shuffle(length int, f func(i, j int)) {
+	seededRand.Shuffle(length, f)
+}
